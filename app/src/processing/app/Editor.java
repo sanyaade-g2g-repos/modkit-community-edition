@@ -2165,7 +2165,7 @@ public class Editor extends JFrame implements RunnerListener {
 						   handleExport();
 					   }
 				   }
-                   Thread.sleep(300);
+                   Thread.sleep(500);
                  }
 	
           } catch (Exception e) {
