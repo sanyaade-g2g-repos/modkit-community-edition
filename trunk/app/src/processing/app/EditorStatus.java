@@ -111,7 +111,7 @@ public class EditorStatus extends JPanel /*implements ActionListener*/ {
 
   public void error(String message) {
     mode = ERR;
-    this.message = "modkit "+message;
+    this.message = message;
     repaint();
   }
 
